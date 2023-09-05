@@ -10,6 +10,7 @@ body{
 }
 #common-btn{
     color: #fff;
+    font-size: 15px;
     background-color: red;
     padding: 15px;
     border: 0;
@@ -26,6 +27,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -43,7 +45,8 @@ nav li{
    justify-content: space-between;
    align-items: center;
    padding: 250px;
-   background-color: black;
+   background-image: url('../images/background.png'),linear-gradient(45deg,black,#474747);
+   background-repeat: no-repeat;
    color: #fff;
 }
 .banner-text-container{
