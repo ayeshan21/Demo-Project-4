@@ -97,6 +97,7 @@ main section{
     background-color: rgb(39, 38, 38);
     color: #fff;
     padding: 50px;
+    margin-bottom: 0;
 }
 .service-title{
     font-size: 40px;
@@ -127,4 +128,28 @@ main section{
     color: #fff;
     border: 0;
     border-radius: 5px;
+}
+
+/* footer styles */
+.footer{
+    margin-top: 0;
+    padding: 150px;
+    color: #fff;
+    background-color: black;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+#footer-title{
+    font-size: 35px;
+}
+#footer-description{
+    width: 400px;
+    line-height: 30px;
+}
+.contact-list ul{
+    list-style: none;
+    padding-left: 0 ;
+    line-height: 30px;
 }
